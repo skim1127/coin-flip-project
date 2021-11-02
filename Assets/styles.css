@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.results-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border: 3px ridge skyblue;
+}
+
+th, td {
+    border-style: ridge;
+    border-color: skyblue;
+    border-radius: 2px;
+}
+
+#flip-button {
+    background-color: lightgoldenrodyellow;
+    border: ridge goldenrod;
+    border-radius: 10px;
+    font-size: large;
+    height: 35px;
+}
+
+#clear-button {
+    background-color: lightskyblue;
+    border: ridge blue;
+    border-radius: 10px;
+    font-size: large;
+    height: 35px;
+}
+
+.buttons-container {
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
