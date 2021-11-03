@@ -12,6 +12,7 @@
             <h1>Penny Flip Game</h1>
         </div>
         <img
+            class="penny-image"
             alt= "picture of penny"
             src= "Assets/penny-heads.jpg"
         >
@@ -19,7 +20,7 @@
             <button id="flip-button">Flip the Penny!</button>
             <button id="clear-button">Clear Scoreboard</button>
         </div>
-        <h2>Let's get Rolling!</h2>
+        <h2 class="results">Let's get Rolling!</h2>
         <hr>
         <h3>Scoreboard</h3>
 
@@ -34,13 +35,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="heads-counter">0</td>
+                    <td id="heads-percent">0</td>
+                    <td id="tails-counter">0</td>
+                    <td id="tails-percent">0</td>
                 </tr>
             </tbody>
         </table>
-
+        <script src="./Assets/index.js"></script>
     </body>
 </html>
